@@ -1,0 +1,20 @@
+# 使用官方 Node.js 基礎映像檔
+FROM node:20-alpine
+
+# 設定工作目錄
+WORKDIR /app
+
+# 複製 package.json
+COPY package.json ./
+
+# 安裝 Node.js dependencies
+RUN npm install
+
+# 複製專案所有檔案
+COPY . .
+
+# 暴露 port 8080
+EXPOSE 8080
+
+# 啟動 Node.js Server
+CMD ["node", "server.js"]
