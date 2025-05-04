@@ -23,13 +23,13 @@
 #### 建立 Image
 
 ```bash
-docker build -t 你的DockerHub帳號/2025cloud:flask -f Dockerfile.web .
+docker build -t jojointhehouse/2025cloud:flask -f Dockerfile.web .
 ```
 
 #### 運行 Container
 
 ```bash
-docker run -d -p 5000:5000 你的DockerHub帳號/2025cloud:flask
+docker run -d -p 5000:5000 jojointhehouse/2025cloud:flask
 ```
 
 開啟瀏覽器進入：
@@ -51,13 +51,13 @@ Hello, 2025cloud!
 #### 建立 Image
 
 ```bash
-docker build -t 你的DockerHub帳號/2025cloud:node -f Dockerfile.node .
+docker build -t jojointhehouse/2025cloud:node -f Dockerfile.node .
 ```
 
 #### 運行 Container
 
 ```bash
-docker run -d -p 8080:8080 你的DockerHub帳號/2025cloud:node
+docker run -d -p 8080:8080 jojointhehouse/2025cloud:node
 ```
 
 開啟瀏覽器進入：
