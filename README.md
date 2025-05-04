@@ -11,8 +11,8 @@
 
 本專案的 Docker Images 已推送至 Docker Hub：
 
-* [jojointhehouse/2025cloud\:flask](https://hub.docker.com/repository/docker/你的DockerHub帳號/2025cloud/tags?page=1&name=flask)
-* [jojointhehouse/2025cloud\:node](https://hub.docker.com/repository/docker/你的DockerHub帳號/2025cloud/tags?page=1&name=node)
+* [jojointhehouse/2025cloud\:flask](https://hub.docker.com/repository/docker/jojointhehouse/2025cloud/tags?page=1&name=flask)
+* [jojointhehouse/2025cloud\:node](https://hub.docker.com/repository/docker/jojointhehouse/2025cloud/tags?page=1&name=node)
 
 ---
 
